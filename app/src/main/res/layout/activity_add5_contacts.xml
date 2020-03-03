@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add5ContactsActivity"
+    android:background="@color/blue">
+
+    <TextView
+        android:id="@+id/emergency_contacts_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Add Emergency Contacts"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
+
+
+
+    <EditText
+        android:layout_marginTop="60dp"
+        android:id="@+id/phone1"
+        android:layout_below="@id/emergency_contacts_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number 1"
+        android:inputType="phone"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingStart="30sp"
+        android:paddingEnd="30sp"
+        android:paddingTop="13sp"
+        android:paddingBottom="13sp"
+        android:textSize="20sp"
+        android:background="@drawable/edit_text"/>
+
+    <EditText
+        android:id="@+id/phone2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/phone1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number 2"
+        android:inputType="phone"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingStart="30sp"
+        android:paddingEnd="30sp"
+        android:paddingTop="13sp"
+        android:paddingBottom="13sp"
+        android:textSize="20sp"
+        android:background="@drawable/edit_text"/>
+
+    <EditText
+        android:id="@+id/phone3"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/phone2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number 3"
+        android:inputType="phone"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingStart="30sp"
+        android:paddingEnd="30sp"
+        android:paddingTop="13sp"
+        android:paddingBottom="13sp"
+        android:textSize="20sp"
+        android:background="@drawable/edit_text"/>
+
+    <EditText
+        android:id="@+id/phone4"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/phone3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number 4"
+        android:inputType="phone"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingStart="30sp"
+        android:paddingEnd="30sp"
+        android:paddingTop="13sp"
+        android:paddingBottom="13sp"
+        android:textSize="20sp"
+        android:background="@drawable/edit_text"/>
+
+    <EditText
+        android:id="@+id/phone5"
+        android:layout_below="@id/phone4"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number 5"
+        android:inputType="phone"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingStart="30sp"
+        android:paddingEnd="30sp"
+        android:paddingTop="13sp"
+        android:paddingBottom="13sp"
+        android:textSize="20sp"
+        android:background="@drawable/edit_text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:id="@+id/add_emergency_contacts_button"
+        android:layout_below="@id/phone5"
+        android:text="Add Contacts"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:paddingStart="30sp"
+        android:paddingEnd="30sp"
+        android:textColor="@color/blue"/>
+
+</RelativeLayout>

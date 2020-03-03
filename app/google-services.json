@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "225080412098",
+    "firebase_url": "https://innofinity-12906.firebaseio.com",
+    "project_id": "innofinity-12906",
+    "storage_bucket": "innofinity-12906.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225080412098:android:7a3c40a19c582ec50b385b",
+        "android_client_info": {
+          "package_name": "com.example.innofinitymanufacturers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225080412098-aguc9rqnsett8a9ijtnj8k0deoctqipq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjD4MraMcmWIHRy2i7mYeTERyi_U9WxKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225080412098-aguc9rqnsett8a9ijtnj8k0deoctqipq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
